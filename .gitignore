@@ -1,0 +1,17 @@
+# Build files
+build/
+dist/
+*.pkg
+*.rar
+*.zip
+*.exe
+*.dmg
+
+# Eel / Flet / Python desktop
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/

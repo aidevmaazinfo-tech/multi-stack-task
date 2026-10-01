@@ -1,0 +1,24 @@
+# ============================================
+# Requirements for: HTML/CSS Login Page in Python
+# 3 Methods: Flet | PyQt | Flask
+# ============================================
+
+# ------------------ METHOD 1: FLET ------------------
+# Flet = Python framework for Desktop + Mobile + Web apps
+# Uses Flutter under the hood
+flet>=0.80.0
+
+# ------------------ METHOD 2: PYQT ------------------
+# PyQt5 = Desktop GUI framework
+# PyQtWebEngine = Chromium browser engine inside PyQt (for HTML rendering)
+PyQt5>=5.15.0
+PyQtWebEngine>=5.15.0
+
+# ------------------ METHOD 3: FLASK ------------------
+# Flask = Python web framework (replaces PHP)
+Flask>=2.0.0
+
+# ------------------ OPTIONAL / SHARED ------------------
+# certifi = SSL certificates (fixes SSL errors on Windows)
+# Only needed if using Flet Desktop Mode
+certifi>=2023.0.0

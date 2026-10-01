@@ -1,0 +1,13 @@
+# Core - EEL for UI serving and Python-JS bridge
+eel==0.18.2
+requests==2.31.0
+
+# Desktop Mode - PyQt5 with WebEngine for native window
+pyqt5==5.15.9
+pyqtwebengine==5.15.7
+
+# Mobile Mode - Flet (latest stable)
+flet
+
+# Optional - For environment variables
+python-dotenv==1.0.0
